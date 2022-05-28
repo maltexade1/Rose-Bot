@@ -23,7 +23,7 @@ announcements.
 Alternatively, [find me on telegram](https://t.me/jithumon)! (Keep all support questions in the support chat, where more people can help you.)
 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/MRK-YT/Rose-Bot)<br>
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/maltexade1/Rose-Bot?organization=maltexade1&organization=maltexade1)<br>
 There is also a [tutorial video](https://youtu.be/wKL90i3cjPw) if you want any help on creating heroku clone.
 [![telegram badge](https://img.shields.io/badge/Support-Group-30302f?style=flat&logo=telegram)](https://telegram.dog/keralabots)
 [![telegram badge](https://img.shields.io/badge/Update-Channel-30302f?style=flat&logo=telegram)](https://telegram.dog/kochuUpdates)
