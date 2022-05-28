@@ -20,19 +20,22 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 PM_START_TEXT = """
 
 
-Hey there! (https://ibb.co/xhCxQ18) My name is *{}*, My job is just to send movie links to MaltexadeTv's group and I'm here to help you manage your groups also! Hit /help to find out more about how to use me to my full potential.
-Join my [main channel](https://t.me/MaltexadeTv) to get information on all the latest updates.
+Hey there!. My name is 𝐌𝐚𝐥𝐭𝐞𝐱𝐚𝐝𝐞𝐓𝐯 𝐏𝐫𝐢𝐧𝐜𝐞𝐬𝐬 👸, 
+
+𝑴𝒚 𝒋𝒐𝒃 𝒊𝒔 𝒕𝒐 𝒔𝒆𝒏𝒅 𝒎𝒐𝒗𝒊𝒆 𝒍𝒊𝒏𝒌𝒔 𝒕𝒐 𝑴𝒂𝒍𝒕𝒆𝒙𝒂𝒅𝒆𝑻𝒗'𝒔 𝒈𝒓𝒐𝒖𝒑 𝒂𝒏𝒅 𝑰'𝒎 𝒉𝒆𝒓𝒆 𝒕𝒐 𝒉𝒆𝒍𝒑 𝒚𝒐𝒖 𝒎𝒂𝒏𝒂𝒈𝒆 𝒚𝒐𝒖𝒓 𝒈𝒓𝒐𝒖𝒑𝒔 𝒂𝒍𝒔𝒐!
+
+Hit /help to find out more about how to use me to my full potential.
+Join my [Main Channel](https://t.me/MaltexadeTv) to get information on all the latest updates. <a href="https://ibb.co/VSBc5mL"><img src="https://i.ibb.co/Snv4Gr6/IMG-20220528-092414-433.jpg" alt="IMG-20220528-092414-433" border="0"></a>
 
 """
 
-HELP_STRINGS = """
-Hey there! My name is *{}*.
+HELP_STRINGS = """Hey there! My name is *{}*.
 I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of \
 the things I can help you with.
 *Main* commands available:
  - /start: start the bot
  - /help: PM's you this message.
- - /help <module name>: PM's you info about that module.
+ - /help <lname>: PM's you info about that module.
  - /donate: information about how to donate!
  - /settings:
    - in PM: will send you your settings for all supported modules.
