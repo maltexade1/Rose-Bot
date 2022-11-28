@@ -25,12 +25,12 @@ Hey there!. My name is 𝐌𝐚𝐥𝐭𝐞𝐱𝐚𝐝𝐞𝐓𝐯 𝐏𝐫𝐢
 𝑴𝒚 𝒋𝒐𝒃 𝒊𝒔 𝒕𝒐 𝒔𝒆𝒏𝒅 𝒎𝒐𝒗𝒊𝒆 𝒍𝒊𝒏𝒌𝒔 𝒕𝒐 𝑴𝒂𝒍𝒕𝒆𝒙𝒂𝒅𝒆𝑻𝒗'𝒔 𝒈𝒓𝒐𝒖𝒑 𝒂𝒏𝒅 𝑰'𝒎 𝒉𝒆𝒓𝒆 𝒕𝒐 𝒉𝒆𝒍𝒑 𝒚𝒐𝒖 𝒎𝒂𝒏𝒂𝒈𝒆 𝒚𝒐𝒖𝒓 𝒈𝒓𝒐𝒖𝒑𝒔 𝒂𝒍𝒔𝒐!
 
 Hit /help to find out more about how to use me to my full potential.
-Join my [Main Channel](https://t.me/MaltexadeTv) to get information on all the latest updates[.](https://i.ibb.co/Snv4Gr6/IMG-20220528-092414-433.jpg)
+Join my [Main Channel](https://t.me/Maltexade_Tv) to get information on all the latest updates[.](https://i.ibb.co/Snv4Gr6/IMG-20220528-092414-433.jpg)
 
 """
 
 HELP_STRINGS = """Hey there! My name is *{}*.
-I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of \
+I'm a modular group management bot with a few fun extras! I manage MaltexadeTv's group and I can help you manage your too. Have a look at the following for an idea of some of \
 the things I can help you with.
 *Main* commands available:
  - /start: start the bot
@@ -143,9 +143,9 @@ def start(bot: Bot, update: Update, args: List[str]):
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
 
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="🎉 Add me to your group", url="t.me/{}?startgroup=true".format(bot.username)),  InlineKeyboardButton(text="🤖 Make Own Admin Bot", url="https://youtu.be/W6CLKrehy6w")],
-                     [InlineKeyboardButton(text="👥 Support Group", url="https://t.me/Mo_Tech_Group"), InlineKeyboardButton(text="🔔 Update Channel", url="https://t.me/Mo_Tech_YT")],
-                     [InlineKeyboardButton(text="👨‍💻 Make", url="https://youtu.be/wKL90i3cjPw"), InlineKeyboardButton(text="🛠 Help", url="https://t.me/{}?start=help".format(bot.username)) ]]))
+                    [[InlineKeyboardButton(text="🎉 Add me to your group", url="t.me/{}?startgroup=true".format(bot.username)),  InlineKeyboardButton(text="🎥 Join Our Movie Channel", url="https://t.me/maltexade_tv")],
+                     [InlineKeyboardButton(text="🔥 Wallpaper Channel", url="https://t.me/wallpaperarsenal"), InlineKeyboardButton(text="♥ Feelings World", url="https://t.me/Dearfeelings")],
+                     [InlineKeyboardButton(text="🎶 Music Channel", url="https://t.me/musicupdatez"), InlineKeyboardButton(text="🛠 Help", url="https://t.me/{}?start=help".format(bot.username)) ]]))
 
     else:
         update.effective_message.reply_text("ചത്തിട്ടില്ലാ...")
